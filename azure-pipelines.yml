@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: |
-  sh hello.sh
+    sh ./hello.sh
   displayName: 'Run a one-line script'
 
 - script: |
